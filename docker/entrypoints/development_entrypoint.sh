@@ -64,4 +64,5 @@ else
 fi
 
 # Start the Flask application with specified host and port, enabling reload and debug mode
-exec flask run --host=0.0.0.0 --port=5000 --reload --debug
+#Aqui he borrado la parte que pone --debug
+exec flask run --host=0.0.0.0 --port=5000 --reload
